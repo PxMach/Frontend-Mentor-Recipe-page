@@ -126,15 +126,16 @@ section {
    border-bottom: none;
 }
 /* Media Querie */
-@media screen and (max-width: 350px) {
-   .content {
+@media screen and (max-width: 400px) {
+   .body {
       width: 100%;
-      max-width: 300px;
       margin: 50px auto;
    }
+   .content {
+      width: 100%;
+   }
    .content img {
-      width: 250px;
+      width: 100%;
       border-radius: 15px;
-      margin: 20px;
    }
 }
