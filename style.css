@@ -6,8 +6,6 @@
    box-sizing: border-box;
 }
 body {
-   /* font-family: "Young Serif", serif;
-   font-family: "Outfit", sans-serif; */
    background: hsl(30, 54%, 90%);
    font-family: "Outfit", sans-serif;
    font-weight: 400;
