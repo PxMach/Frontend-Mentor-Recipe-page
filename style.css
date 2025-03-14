@@ -126,13 +126,13 @@ section {
    border-bottom: none;
 }
 /* Media Querie */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 375px) {
    .body {
       width: 100%;
-      margin: 50px auto;
    }
    .content {
       width: 100%;
+      margin: 30px auto;
    }
    .content img {
       width: 100%;
