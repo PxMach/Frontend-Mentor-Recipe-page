@@ -126,7 +126,7 @@ section {
    border-bottom: none;
 }
 /* Media Querie */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 350px) {
    .body {
       width: 100%;
    }
