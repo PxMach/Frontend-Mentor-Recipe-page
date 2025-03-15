@@ -9,7 +9,11 @@ body {
    background: hsl(30, 54%, 90%);
    font-family: "Outfit", sans-serif;
    font-weight: 400;
-   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
 }
 
 .content {
@@ -127,15 +131,14 @@ section {
 }
 /* Media Querie */
 @media screen and (max-width: 350px) {
-   .body {
-      width: 100%;
-   }
    .content {
       width: 100%;
+      max-width: 300px;
       margin: 30px auto;
    }
    .content img {
       width: 100%;
+      max-width: 250px;
       border-radius: 15px;
    }
 }
